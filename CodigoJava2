@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Programa {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        float numero1 = 25.8f;
+        float numero2 = 30.7f;
+        float soma = numero1 + numero2;
+
+        System.out.println("A soma dos numeros é igual a: " + soma);
+    }
+}
