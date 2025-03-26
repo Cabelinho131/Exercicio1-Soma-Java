@@ -3,10 +3,17 @@ import java.util.Scanner;
 public class Programa {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        float numero1 = 25.8f;
-        float numero2 = 30.7f;
+        int numero1 = 25;
+        int numero2 = 30;
         float soma = numero1 + numero2;
+        float sub = numero1 - numero2;
+        float mult = numero1 * numero2;
+        float div = numero1 / numero2;
 
         System.out.println("A soma dos numeros é igual a: " + soma);
+        System.out.println("A subtração dos numeros é igual a: " + sub);
+        System.out.println("A multiplicação dos numeros é igual a: " + mult);
+        System.out.println("A divisão dos numeros é igual a: " + div);
+
     }
 }
